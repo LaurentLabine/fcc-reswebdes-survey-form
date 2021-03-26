@@ -1,0 +1,55 @@
+body,
+html {
+    /*Not sure why but if i remove this i lose padding*/
+    font-family: montserrat;
+    font-weight: bold;
+    background-color: #361999;
+}
+
+header {
+    text-align: center;
+    color: #361999;
+    font-size: 30px;
+}
+
+.flabel {
+    font-size: 18px;
+}
+
+#main {
+    max-width: 80%;
+    margin: 30px auto;
+}
+
+.btn {
+    color: #361999;
+    font-size: 1em;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0.5em 2em;
+    border: 2px solid #361999;
+}
+
+.btn:hover {
+    background-color: #361999;
+    color: white;
+}
+
+#container {
+    padding: 70px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+td {
+    vertical-align: top;
+    line-height: 25px;
+}
+
+legend {
+    padding: 0 10px;
+}
+
+label {
+    padding: 10px;
+}
