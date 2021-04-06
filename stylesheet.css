@@ -48,11 +48,17 @@ header {
     padding: 2vw;
     background-color: white;
     border-radius: 2rem;
+    max-width: 1000px;
+    margin: auto;
 }
 
 td {
     vertical-align: top;
     line-height: 2rem;
+}
+
+#survey td {
+    padding-top: 2rem;
 }
 
 legend {
