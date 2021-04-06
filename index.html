@@ -4,7 +4,8 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title></title>
@@ -16,25 +17,24 @@
     <link rel="stylesheet" href="stylesheet.css" />
     <link href="https://fonts.googleapis.com/css?family=Dosis|Lato|Oswald|Pacifico|Roboto" rel="stylesheet" />
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="container">
-      <header id="subheader">
-        <h1 id="title">A Random and Exciting Web Form</h1>
-        <p id="description">
-          This is a very interesting form intended to be used in highly
-          sophisticated contexts
-        </p>
-      </header>
-      <div id="main">
-        <form id="survey-form">
-          <fieldset>
-            <legend>Personal Information</legend>
-            <table id="personal-information-container">
-              <tr>
-                <td>
-                  <label id="name-label" class="flabel" for="fname"
-                    >Name (Required)</label
+        <header id="subheader">
+            <h1 id="title">A Random and Exciting Web Form</h1>
+            <p id="description">
+                This is a very interesting form intended to be used in highly sophisticated contexts
+            </p>
+        </header>
+        <div id="main">
+            <form id="survey-form">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <table id="personal-information-container">
+                        <tr>
+                            <td>
+                                <label id="name-label" class="flabel" for="fname">Name (Required)</label
                   >
                 </td>
                 <td>
@@ -59,98 +59,74 @@
               <tr>
                 <td>
                   <label id="number-label" class="flabel">Age</label>
-                </td>
-                <td>
-                  <input
-                    type="number"
-                    id="number"
-                    min="15"
-                    max="99"
-                    placeholder="35"
-                  />
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <label class="flabel">Gender</label>
-                </td>
-                <td>
-                  <div id="radio-buttons">
-                    <input type="radio" id="male" name="gender" value="male" />
-                    <label for="male">Male</label>
-                    <br />
-                    <input
-                      type="radio"
-                      id="female"
-                      name="gender"
-                      value="female"
-                    />
-                    <label for="female">Female</label>
-                    <br />
-                    <input
-                      type="radio"
-                      id="other"
-                      name="gender"
-                      value="other"
-                    />
-                    <label for="other">Other</label>
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </fieldset>
-          <br />
-          <table id="survey">
-            <tr>
-              <td>
-                <label class="flabel">1 - Who cares?</label>
-              </td>
-              <td>
-                <select name="dropdown" id="dropdown">
+                            </td>
+                            <td>
+                                <input type="number" id="number" min="15" max="99" placeholder="35" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="flabel">Gender</label>
+                            </td>
+                            <td>
+                                <div id="radio-buttons">
+                                    <input type="radio" id="male" name="gender" value="male" />
+                                    <label for="male">Male</label>
+                                    <br />
+                                    <input type="radio" id="female" name="gender" value="female" />
+                                    <label for="female">Female</label>
+                                    <br />
+                                    <input type="radio" id="other" name="gender" value="other" />
+                                    <label for="other">Other</label>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <br />
+                <table id="survey">
+                    <tr>
+                        <td>
+                            <label class="flabel">1 - Who cares?</label>
+                        </td>
+                        <td>
+                            <select name="dropdown" id="dropdown">
                   <option value="Me">Me</option>
                   <option value="Who Knows">Who knows</option>
                   <option value="Nobody">Nobody</option>
                 </select>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label class="flabel">2 - Want a fruit(s)?</label>
-              </td>
-              <td>
-                <input type="checkbox" name="fruit" value="Apple" />
-                <label for="fname">Banana</label>
-                <br />
-                <input type="checkbox" name="fruit" value="Orange" />
-                <label for="fname">Orange</label>
-                <br />
-                <input
-                  type="checkbox"
-                  name="fruit"
-                  text="banana"
-                  value="Banana"
-                />
-                <label for="fname">A tomato</label>
-                <br />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label class="flabel">3 - Meaning of all this?</label>
-              </td>
-              <td>
-                <textarea
-                  id="textarea"
-                  rows="5"
-                  placeholder="describe your experience"
-                ></textarea>
-              </td>
-            </tr>
-          </table>
-          <input id="submit" type="submit" class="btn" />
-        </form>
-      </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label class="flabel">2 - Want a fruit(s)?</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="fruit" value="Apple" />
+                            <label for="fname">Banana</label>
+                            <br />
+                            <input type="checkbox" name="fruit" value="Orange" />
+                            <label for="fname">Orange</label>
+                            <br />
+                            <input type="checkbox" name="fruit" text="banana" value="Banana" />
+                            <label for="fname">A tomato</label>
+                            <br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label class="flabel">3 - Meaning of all this?</label>
+                        </td>
+                        <td>
+                            <textarea id="textarea" rows="5" placeholder="describe your experience"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <input id="submit" type="submit" class="btn" />
+            </form>
+        </div>
     </div>
     <script src="" async defer></script>
-  </body>
+</body>
+
 </html>

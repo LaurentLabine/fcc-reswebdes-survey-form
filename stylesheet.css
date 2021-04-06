@@ -1,6 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body,
 html {
-    /*Not sure why but if i remove this i lose padding*/
+    padding: 1rem;
     font-family: montserrat;
     font-weight: bold;
     background-color: #361999;
@@ -9,16 +14,20 @@ html {
 header {
     text-align: center;
     color: #361999;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .flabel {
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 #main {
-    max-width: 50%;
-    margin: 30px auto;
+    margin: auto;
+    width: 40vw;
+    min-width: 400px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 2vh 1vw 1vh 1vw;
 }
 
 .btn {
@@ -36,20 +45,20 @@ header {
 }
 
 #container {
-    padding: 70px;
+    padding: 2vw;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 2rem;
 }
 
 td {
     vertical-align: top;
-    line-height: 25px;
+    line-height: 2rem;
 }
 
 legend {
-    padding: 0 10px;
+    padding: 0 1.2rem;
 }
 
 label {
-    padding: 10px;
+    padding: 2rem;
 }
