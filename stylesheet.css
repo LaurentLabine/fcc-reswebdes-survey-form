@@ -25,8 +25,8 @@ header {
 #main {
     display: flex;
     margin: auto;
-    width: 40vw;
-    min-width: 400px;
+    width: 60%;
+    /* min-width: 400px; */
     background-color: #f3f3f3;
     border-radius: 10px;
     padding: 2vh 1vw 1vh 1vw;
