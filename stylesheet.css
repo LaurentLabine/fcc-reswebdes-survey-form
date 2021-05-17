@@ -5,16 +5,26 @@
 
 body,
 html {
-    padding: 1rem;
+    /* margin: 1rem; */
+    width: 100%;
     font-family: montserrat;
     font-weight: bold;
     background-color: #361999;
+    justify-content: center;
 }
 
 header {
     text-align: center;
     color: #361999;
     font-size: 2rem;
+}
+
+.survey-form {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin: auto;
 }
 
 .flabel {
@@ -25,12 +35,12 @@ header {
 #main {
     display: flex;
     margin: auto;
-    width: 40%;
-    min-width: 400px;
+    width: 70%;
     background-color: #f3f3f3;
     border-radius: 10px;
-    padding: 2vh 1vw 1vh 1vw;
+    padding: 2rem 1rem 1rem 1rem;
     justify-content: center;
+
 }
 
 .btn {
@@ -48,7 +58,7 @@ header {
 }
 
 #container {
-    padding: 2vw;
+    min-width: 480px;
     background-color: white;
     border-radius: 2rem;
     max-width: 1000px;
@@ -58,16 +68,13 @@ header {
 td {
     vertical-align: top;
     line-height: 2rem;
+    
 }
 
 #survey td {
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 legend {
     padding: 0 1.2rem;
-}
-
-label {
-    padding: 2rem;
 }
