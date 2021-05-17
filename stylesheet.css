@@ -18,6 +18,12 @@ html {
     margin: auto;
 }
 
+h2 {
+    font-size: 32px;
+    width: 80%;
+    margin: auto;
+}
+
 header {
     text-align: center;
     color: #361999;
